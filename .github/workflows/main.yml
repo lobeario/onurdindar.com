@@ -20,12 +20,12 @@ jobs:
         uses: docker/setup-buildx-action@v3
 
       - name: Build Docker image locally
-        run: docker build -t ugurdindar.com:latest .
+        run: docker build -t onurdindar.com:latest .
 
       - name: Stop and remove old container
         run: |
-          docker stop ugurdindar.com || true
-          docker rm ugurdindar.com || true
+          docker stop onurdindar.com || true
+          docker rm onurdindar.com || true
 
       - name: Run new container
-        run: docker run -d --name ugurdindar.com -p $PORT:$PORT -e PORT=$PORT --restart unless-stopped ugurdindar.com:latest
+        run: docker run -d --name onurdindar.com -p $PORT:$PORT -e PORT=$PORT --restart unless-stopped onurdindar.com:latest

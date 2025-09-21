@@ -1,17 +1,18 @@
 // General constants for the portfolio website
-export const developer = 'Uğur Dindar';
-export const website = 'ugurdindar.com';
-export const username = 'tzesh';
+export const developer = 'Onur Dindar';
+export const website = 'onurdindar.com';
+export const username = 'lobear';
+export const githubUsername = 'lobeario';
 
 // SEO constants
 export const title = `${developer} - ${website}`;
-export const description = 'Portfolio of Uğur Dindar, a.k.a Tzesh';
-export const keywords = 'Uğur, Dindar, Tzesh, Portfolio, ugurdindar, ugurdindar.com, vscode-portfolio, vscode, portfolio';
+export const description = 'Portfolio of Onur Dindar, a.k.a Lobear';
+export const keywords = 'Onur, Dindar, Lobear, Portfolio, onurdindar, onurdindar.com, vscode-portfolio, vscode, portfolio';
 export const ogImage = 'https://imgur.com/xpLZHs0.png';
-export const websiteUrl = 'https://ugurdindar.com';
+export const websiteUrl = 'https://onurdindar.com';
 
 // Homepage constants
-export const developerTitle = 'Software Engineer';
+export const developerTitle = 'Computer Engineering Student';
 
 // Explorer items
 export const explorerItems = [
@@ -42,12 +43,7 @@ export const aboutBody = [
   {
     tag: 'h1',
     title: 'Who am I?',
-    content: 'An ordinary person who interested in Computer Science & Technologies since childhood and also a graduate from Eskişehir Technical University. I have been known as Tzesh which is my nickname. I am striving to improve my knowledge by developing, staying up-to-date, and learning new things day by day.',
-  },
-  {
-    tag: 'h2',
-    title: 'My Resume',
-    content: 'If you want to seek more information about me, you can check my resume.',
+    content: 'A computer engineering student at Izmir Institute of Technology who is interested in computers since childhood. I am striving to improve myself in the field of software development.'
   }
 ];
 
@@ -60,20 +56,20 @@ export const contacts = [
   },
   {
     social: 'github',
-    link: username,
-    href: 'https://github.com/' + username,
+    link: githubUsername,
+    href: 'https://github.com/' + githubUsername,
   },
   {
     social: 'linkedin',
-    link: 'ugurdindar',
-    href: 'https://www.linkedin.com/in/ugurdindar',
+    link: '0nurdindar',
+    href: 'https://www.linkedin.com/in/0nurdindar',
   },
   {
     social: 'steam',
-    link: 'tzesh',
-    href: 'https://steamcommunity.com/id/tzesh',
+    link: 'lobear',
+    href: 'https://steamcommunity.com/id/lobear',
   }
 ];
 
 // Bottombar link
-export const bottombarLink = 'https://github.com/tzesh/ugurdindar.com';
+export const bottombarLink = 'https://github.com/lobeario/onurdindar.com';

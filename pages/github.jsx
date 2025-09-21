@@ -2,7 +2,7 @@ import Image from 'next/image';
 import GitHubCalendar from 'react-github-calendar';
 import RepoCard from '../components/RepoCard';
 import styles from '../styles/GithubPage.module.css';
-import { username } from '../constants/constants';
+import { githubUsername } from '../constants/constants';
 
 const GithubPage = ({ repos, user }) => {
   const theme = {
@@ -37,7 +37,7 @@ const GithubPage = ({ repos, user }) => {
       </div>
       <div className={styles.contributions}>
         <GitHubCalendar
-          username={username}
+          username={githubUsername}
           theme={theme}
           hideColorLegend
           hideMonthLabels
@@ -49,12 +49,12 @@ const GithubPage = ({ repos, user }) => {
 
 export async function getStaticProps() {
   const userRes = await fetch(
-    `https://api.github.com/users/${username}`
+    `https://api.github.com/users/${githubUsername}`
   );
   const user = await userRes.json();
 
   const repoRes = await fetch(
-    `https://api.github.com/users/${username}/repos?per_page=100`
+    `https://api.github.com/users/${githubUsername}/repos?per_page=100`
   );
   let repos = await repoRes.json();
   if (!Array.isArray(repos)) {
