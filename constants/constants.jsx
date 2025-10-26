@@ -8,7 +8,7 @@ export const githubUsername = 'lobeario';
 export const title = `${developer} - ${website}`;
 export const description = 'Portfolio of Onur Dindar, a.k.a Lobear';
 export const keywords = 'Onur, Dindar, Lobear, Portfolio, onurdindar, onurdindar.com, vscode-portfolio, vscode, portfolio';
-export const ogImage = 'https://imgur.com/a/7GyYjJy';
+export const ogImage = 'https://i.imgur.com/29OYlBC.png';
 export const websiteUrl = 'https://onurdindar.com';
 
 // Homepage constants
