@@ -67,7 +67,7 @@ export const contacts = [
   {
     social: 'steam',
     link: 'lobear',
-    href: 'https://steamcommunity.com/id/lobear',
+    href: 'https://steamcommunity.com/id/lobearonur',
   }
 ];
 
